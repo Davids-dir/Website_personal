@@ -1,83 +1,98 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+
+/* ETIQUETAS */
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #f5f5f5;
+}
+
 /* DIV Contenedor */
+#bodyContainer { 
+    width: 100%;
+}
 
 /* DIV Container*/
 #headerDIV {
     display: flex;
     flex-direction: row;
-    height: 120px;
-    width: 1920px;
+    height: 7.50em;
 }
 
 .null {
-    height: 120px;
-    width: 460px;
-}
-
-#logoPersonal {
-    height: 120px;
-    width: 120px;
+    width: 28.750em;
 }
 
 .null2 {
-    height: 120px;
-    width: 460px;
+    width: 28.750em;
 }
 
 #menuContainer {
     display: flex;
     flex-direction: column;
-    height: 120px;
-    width: 900px;
+    width: 27.500em;
 }
 
 #navMenu {
-    height: 120px;
-    width: 900px;
+    height: 7.50em;
+    width: 27.500em;
 }
 
 .null3 {
-    height: 40px;
+    height: 3.750em;
 }
 
 .list {
+    margin: 0;
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 60px;
-    width: 360px;
+    height: 3.750em;
+    width: 23.750em;
 }
 
 a {
-    color: black;
+    color: #222831;
     text-decoration: none;
 }
 
 li:nth-child(1) {
-    text-decoration: none;
+    font-family: 'Grandstander', cursive;
     text-align: center;
-    height: 18px;
-    width: 60px;
+    height: 1.125em;
+    width: 5em;
     
     
 }
 
 li:nth-child(2) {
-    text-align: center;
-    height: 18px;
-    width: 60px;
+    font-family: 'Grandstander', cursive;
+    height: 1.125em;
+    width: 3.750em;
     
 }
 
 li:nth-child(3) {
-    text-align: center;
-    height: 18px;
-    width: 60px;
+    font-family: 'Grandstander', cursive;
+    height: 1.125em;
+    width: 3.750em;
 }
 
+/* DIV con Imagen */
+/*
+#mainDIV {
+    height: 700px;
+    width: auto;
+    background-image: url(/img/main.jpg);
+    background-size: cover;
+}
 
-/* .links {
-    display: inline;
-    height: 90px;
-    width: 180px;
-} */
+#mainText {
+    color: white;
+    height: 140px;
+    width: 360px;
+}
