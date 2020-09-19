@@ -1,6 +1,7 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
 
+
 /* ETIQUETAS */
 body {
     margin: 0;
@@ -83,16 +84,24 @@ li:nth-child(3) {
 }
 
 /* DIV con Imagen */
-/*
 #mainDIV {
-    height: 700px;
+    display: flex;
+    flex-direction: column;
+    height: 50em;
     width: auto;
     background-image: url(/img/main.jpg);
     background-size: cover;
 }
 
 #mainText {
+    font-family: 'Grandstander', cursive;
+    font-size: 400%;
     color: white;
-    height: 140px;
-    width: 360px;
+    text-align: center;
+    height: 200px;
+    width: 1240px;
+}
+
+.null4 {
+    height: 480px;
 }
