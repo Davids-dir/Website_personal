@@ -1,6 +1,22 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Grandstander:ital,wght@1,300&display=swap');
+
+@keyframes fadeIn {
+    0% {
+    opacity:1;
+    }
+    45% {
+    opacity:1;
+    }
+    55% {
+    opacity:0;
+    }
+    100% {
+    opacity:0;
+    }
+}
 
 /* ETIQUETAS */
 body {
@@ -23,7 +39,7 @@ header {
 #headerDIV {
     display: flex;
     flex-direction: row;
-    height: 7.50em;
+    height: 5.5em;
 }
 
 .null {
@@ -62,7 +78,7 @@ header {
 }
 
 .null4 {
-    height: 5em;
+    height: 4em;
 }
 
 .list {
@@ -150,13 +166,40 @@ li:nth-child(3) {
 }
 
 #centerTop{
+    position: relative;
     height: 80px;
+    width: 80px;
+    margin-top: 40px;
+    margin-left: 600px;
+}
+
+#centerTop img {
+    position: absolute;
+}
+
+#centerTop img.top {
+    animation-name: fadeIn;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-direction: alternate;
 }
 
 #centerMid {
-    height: 90px;
+    font-family: 'Grandstander', cursive;
+    font-size: xx-large;
+    text-align: center;
+    height: 40px;
+    margin-top: 14px;
 }
 
 #centerBottom{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 200;
+    font-size: x-large;
+    text-align: center;
     height: 210px;
+    
 }
+
+  
