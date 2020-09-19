@@ -8,7 +8,10 @@ body {
 }
 
 header {
-    background-color: #f5f5f5;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    transition: 0.3s;
 }
 
 /* DIV Contenedor */
@@ -24,11 +27,27 @@ header {
 }
 
 .null {
-    width: 28.750em;
+    width: 8em;
+}
+
+#marcaPersonal {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
 }
 
 .null2 {
-    width: 28.750em;
+    height: 30px;
+}
+
+#textoMarca {
+    font-family: 'Grandstander', cursive;
+    text-align: center;
+    font-size: x-large;
+}
+
+.null3 {
+    width: 24em;
 }
 
 #menuContainer {
@@ -42,8 +61,8 @@ header {
     width: 27.500em;
 }
 
-.null3 {
-    height: 3.750em;
+.null4 {
+    height: 5em;
 }
 
 .list {
@@ -59,6 +78,11 @@ header {
 a {
     color: #222831;
     text-decoration: none;
+}
+
+a:hover {
+    color: #eeeeee;
+    transition: 0.5s;
 }
 
 li:nth-child(1) {
@@ -85,12 +109,10 @@ li:nth-child(3) {
 
 /* DIV con Imagen */
 #mainDIV {
-    display: flex;
-    flex-direction: column;
-    height: 50em;
+    height: 978px;
     width: auto;
     background-image: url(/img/main.jpg);
-    background-size: cover;
+    background-size: auto;
 }
 
 #mainText {
@@ -102,6 +124,39 @@ li:nth-child(3) {
     width: 1240px;
 }
 
-.null4 {
+.null5 {
     height: 480px;
+}
+
+/* SECTION 'Sobre mi' */
+.section {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+#section1LeftSide {
+    width: 460px;
+}
+
+#section1Center {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#section1RightSide {
+    width: 460px;
+}
+
+#centerTop{
+    height: 80px;
+}
+
+#centerMid {
+    height: 90px;
+}
+
+#centerBottom{
+    height: 210px;
 }
