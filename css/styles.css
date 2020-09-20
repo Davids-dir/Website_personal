@@ -30,6 +30,12 @@ header {
     transition: 0.3s;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+}
+
 /* DIV Contenedor */
 #bodyContainer { 
     width: 100%;
@@ -276,4 +282,30 @@ li:nth-child(3) {
     text-align: center;
     padding-right: 36px;
 }
+
+/* FOOTER DIVS */
+#socialLinks{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+}
+
+#leftFooter {
+    width: 860px;
+}
+
+#centerFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+#rightFooter {
+    width: 860px;
+}
+
+#footerBar{
+    background-color: #77cace;
+    height: 20px;
 }

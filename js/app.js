@@ -1,13 +1,8 @@
-
-
-let prevScrollpos = window.pageYOffset;
-
-window.onscroll = function() {
-    let currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-    document.getElementById("headerDIV").style.top = "0";
+function myFunction() {
+    var x = document.getElementById("mainHeader");
+    if (x.style.display === "none") {
+      x.style.display = "block";
     } else {
-    document.getElementById("headerDIV").style.top = "-50px";
+      x.style.display = "none";
     }
-    prevScrollpos = currentScrollPos;
-} 
+  } 
