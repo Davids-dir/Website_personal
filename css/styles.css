@@ -27,9 +27,12 @@ header {
     background-color: transparent;
     position: fixed;
     width: 100%;
-    transition: 0.3s;
 }
 
+#mainHeader {
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
+  
 footer {
     display: flex;
     flex-direction: column;
@@ -133,7 +136,7 @@ li:nth-child(3) {
 #mainDIV {
     height: 978px;
     width: auto;
-    background-image: url(img/main.jpg);
+    background-image: url(/img/main.jpg);
     background-size: auto;
 }
 
@@ -287,7 +290,7 @@ li:nth-child(3) {
 #socialLinks{
     display: flex;
     flex-direction: row;
-    height: 60px;
+    height: 70px;
 }
 
 #leftFooter {
@@ -307,5 +310,5 @@ li:nth-child(3) {
 
 #footerBar{
     background-color: #77cace;
-    height: 20px;
+    height: 10px;
 }
