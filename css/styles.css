@@ -140,15 +140,11 @@ li:nth-child(3) {
     width: 1240px;
 }
 
-.null5 {
-    height: 480px;
-}
-
 /* SECTION 'Sobre mi' */
 .section {
     display: flex;
     flex-direction: row;
-    height: 500px;
+    height: 360px;
 }
 
 #section1LeftSide {
@@ -159,10 +155,6 @@ li:nth-child(3) {
     display: flex;
     flex-direction: column;
     width: 100%;
-}
-
-#section1RightSide {
-    width: 460px;
 }
 
 #centerTop{
@@ -181,7 +173,7 @@ li:nth-child(3) {
     animation-name: fadeIn;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-direction: alternate;
 }
 
@@ -195,11 +187,93 @@ li:nth-child(3) {
 
 #centerBottom{
     font-family: 'Dosis', sans-serif;
+    color: #222831;
     font-weight: 200;
     font-size: x-large;
     text-align: center;
-    height: 210px;
-    
+    height: 210px;    
 }
 
+#section1RightSide {
+    width: 460px;
+}
+
+/* SECTION 'Portfolio' */
+#section2LeftSide{
+    width: 830px;
+}
+
+#barSeparation {
+    background-color: #77cace;
+    height: 4px;
+    width: 580px;
+    margin-top: 48px;
+    margin-left: 120px;
+}
+
+#leftMid2 {
+    font-family: 'Grandstander', cursive;
+    font-size: xx-large;
+    text-align: center;
+    height: 40px;
+    margin-top: 48px;
+}
+
+#leftBottom2 {
+    font-family: 'Dosis', sans-serif;
+    color: #222831;
+    font-weight: 200;
+    font-size: x-large;
+    text-align: center;
+    padding-left: 22px;
+}
+
+#section2Center {
+    width: 540px;
+}
+
+#section2RightSide {
+    width: 540px;
+}
+
+
+/* SECTION 'Contacto' */
+#section3LeftSide {
+    width: 540px;
+}
+
+#section3Center {
+    width: 540px;
+}
+
+
+#section3RightSide {
+    display: flex;
+    flex-direction: column;
+    width: 830px;
+}
+
+#barSeparation2 {
+    background-color: #77cace;
+    height: 4px;
+    width: 580px;
+    margin-left: 120px;
+}
+
+#contactTittle {
+    font-family: 'Grandstander', cursive;
+    font-size: xx-large;
+    text-align: center;
+    height: 40px;
+    margin-top: 48px;
+}
   
+#contactText {
+    font-family: 'Dosis', sans-serif;
+    color: #222831;
+    font-weight: 200;
+    font-size: x-large;
+    text-align: center;
+    padding-right: 36px;
+}
+}
