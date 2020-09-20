@@ -29,6 +29,12 @@ header {
     width: 100%;
 }
 
+header.contactHeader {
+    background-color: #77cace;
+    position: fixed;
+    width: 100%;
+}
+
 #mainHeader {
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
   }
@@ -38,6 +44,7 @@ footer {
     flex-direction: column;
     height: 12.500em;
 }
+
 
 /* DIV Contenedor */
 #bodyContainer { 
@@ -377,7 +384,10 @@ li:nth-child(3) {
 #contactDIV {
     display: flex;
     flex-direction: column;
-    height: 1200px;
+    position: relative;
+    bottom: 300px;
+    height: 880px;
+    
 }
 
 #headerContactDIV {
@@ -387,7 +397,7 @@ li:nth-child(3) {
 }
 
 #linkIndex {
-    margin-left: 700px;
+    margin-left: 800px;
 }
 
 .column {
@@ -397,25 +407,66 @@ li:nth-child(3) {
 #dudaDiv {
     font-family: 'Grandstander', cursive;
     font-size: x-large;
-    width: 1140px;
+    width: 720px;
     text-align: center;
+    margin-left: 200px;
+}
+
+#contactChildDiv {
+    height: 890px;
+}
+
+.form-control {
+    font-family: 'Dosis', sans-serif;
+    font-size: large;
 }
 
 #nombreLabel {
     font-family: 'Dosis', sans-serif;
-    font-size: large;
+    font-size: x-large;
 }
 
 #email-Label {
     font-family: 'Dosis', sans-serif;
-    font-size: large;
+    font-size: x-large;
 }
 
 #commentLabel {
     font-family: 'Dosis', sans-serif;
-    font-size: large; 
+    font-size: x-large;
 }
 
-#comentInput {
-    height: 180px;
+#commentLabelInput {
+    font-family: 'Dosis', sans-serif;
+    font-size: large;
+}
+
+#idea {
+    position: relative;
+    top: 170px;
+    left: 180px;
+    z-index: 0;
+}
+
+#deal {
+    position: relative;
+    top: 620px;
+    left: 720px;
+    z-index: 0;
+}
+
+#form-set {
+    position: relative;
+    z-index: 1;
+}
+
+#backImage {
+    height: 1000px;
+}
+
+#centerFooterContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 22.50em;
 }
