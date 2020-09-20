@@ -144,7 +144,7 @@ li:nth-child(3) {
     height: 61.125em;
     width: auto;
     background-image: url(../img/main.jpg);
-    background-size: auto;
+    background-size: cover;
 }
 
 #mainText {
@@ -177,8 +177,7 @@ li:nth-child(3) {
     position: relative;
     height: 5em;
     width: 5em;
-    margin-top: 2.5em;
-    margin-left: 37.500em;
+    margin: auto;
 }
 
 #centerTop img.top {
@@ -385,8 +384,8 @@ li:nth-child(3) {
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 300px;
-    height: 880px;
+    bottom: 18.750em;
+    height: 55.000em;
     
 }
 
@@ -397,23 +396,23 @@ li:nth-child(3) {
 }
 
 #linkIndex {
-    margin-left: 800px;
+    margin-left: 50.000em;
 }
 
 .column {
-    margin-top: 200px;
+    margin-top: 12.500em;
 }
 
 #dudaDiv {
     font-family: 'Grandstander', cursive;
     font-size: x-large;
-    width: 720px;
+    width: 45.000em;
     text-align: center;
-    margin-left: 200px;
+    margin-left: 12.500em;
 }
 
 #contactChildDiv {
-    height: 890px;
+    height: 55.625em;
 }
 
 .form-control {
@@ -443,15 +442,15 @@ li:nth-child(3) {
 
 #idea {
     position: relative;
-    top: 170px;
-    left: 180px;
+    top: 10.625em;
+    left: 11.250em;
     z-index: 0;
 }
 
 #deal {
     position: relative;
-    top: 620px;
-    left: 720px;
+    top: 38.750em;
+    left: 45.000em;
     z-index: 0;
 }
 
@@ -461,7 +460,7 @@ li:nth-child(3) {
 }
 
 #backImage {
-    height: 1000px;
+    height: 43.750em;
 }
 
 #centerFooterContact {
