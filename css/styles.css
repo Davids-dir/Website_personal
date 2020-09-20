@@ -174,11 +174,9 @@ li:nth-child(3) {
     margin-left: 37.500em;
 }
 
-#centerTop img {
-    position: absolute;
-}
-
 #centerTop img.top {
+    position: relative;
+    bottom: 5.250em;
     animation-name: fadeIn;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -372,4 +370,52 @@ li:nth-child(3) {
 #footerBar{
     background-color: #77cace;
     height: 0.625em;
+}
+
+
+/* CONTACT.html */
+#contactDIV {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+}
+
+#headerContactDIV {
+    display: flex;
+    flex-direction: row;
+    height: 5.5em;
+}
+
+#linkIndex {
+    margin-left: 700px;
+}
+
+.column {
+    margin-top: 200px;
+}
+
+#dudaDiv {
+    font-family: 'Grandstander', cursive;
+    font-size: x-large;
+    width: 1140px;
+    text-align: center;
+}
+
+#nombreLabel {
+    font-family: 'Dosis', sans-serif;
+    font-size: large;
+}
+
+#email-Label {
+    font-family: 'Dosis', sans-serif;
+    font-size: large;
+}
+
+#commentLabel {
+    font-family: 'Dosis', sans-serif;
+    font-size: large; 
+}
+
+#comentInput {
+    height: 180px;
 }
