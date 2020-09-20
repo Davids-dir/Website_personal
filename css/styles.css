@@ -36,7 +36,7 @@ header {
 footer {
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: 12.500em;
 }
 
 /* DIV Contenedor */
@@ -58,11 +58,11 @@ footer {
 #marcaPersonal {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 12.500em;
 }
 
 .null2 {
-    height: 30px;
+    height: 1.875em;
 }
 
 #textoMarca {
@@ -72,7 +72,7 @@ footer {
 }
 
 .null3 {
-    width: 24em;
+    width: 25em;
 }
 
 #menuContainer {
@@ -134,7 +134,7 @@ li:nth-child(3) {
 
 /* DIV con Imagen */
 #mainDIV {
-    height: 978px;
+    height: 61.125em;
     width: auto;
     background-image: url(../img/main.jpg);
     background-size: auto;
@@ -145,19 +145,19 @@ li:nth-child(3) {
     font-size: 400%;
     color: white;
     text-align: center;
-    height: 200px;
-    width: 1240px;
+    height: 12.500em;
+    width: 77.500em;
 }
 
 /* SECTION 'Sobre mi' */
 .section {
     display: flex;
     flex-direction: row;
-    height: 360px;
+    height: 22.500em;
 }
 
 #section1LeftSide {
-    width: 460px;
+    width: 28.750em;
 }
 
 #section1Center {
@@ -168,10 +168,10 @@ li:nth-child(3) {
 
 #centerTop{
     position: relative;
-    height: 80px;
-    width: 80px;
-    margin-top: 40px;
-    margin-left: 600px;
+    height: 5em;
+    width: 5em;
+    margin-top: 2.5em;
+    margin-left: 37.500em;
 }
 
 #centerTop img {
@@ -190,8 +190,8 @@ li:nth-child(3) {
     font-family: 'Grandstander', cursive;
     font-size: xx-large;
     text-align: center;
-    height: 40px;
-    margin-top: 14px;
+    height: 2.500em;
+    margin-top: 0.875em;
 }
 
 #centerBottom{
@@ -200,32 +200,32 @@ li:nth-child(3) {
     font-weight: 200;
     font-size: x-large;
     text-align: center;
-    height: 210px;    
+    height: 13.125em;    
 }
 
 #section1RightSide {
-    width: 460px;
+    width: 28.750em;
 }
 
 /* SECTION 'Portfolio' */
 #section2LeftSide{
-    width: 830px;
+    width: 51.875em;
 }
 
 #barSeparation {
     background-color: #77cace;
-    height: 4px;
-    width: 580px;
-    margin-top: 48px;
-    margin-left: 120px;
+    height: 0.250em;
+    width: 36.250em;
+    margin-top: 3.000em;
+    margin-left: 3em;
 }
 
 #leftMid2 {
     font-family: 'Grandstander', cursive;
     font-size: xx-large;
     text-align: center;
-    height: 40px;
-    margin-top: 48px;
+    height: 1.5em;
+    margin-top: 1em;
 }
 
 #leftBottom2 {
@@ -234,7 +234,7 @@ li:nth-child(3) {
     font-weight: 200;
     font-size: x-large;
     text-align: center;
-    padding-left: 22px;
+    padding-left: 1.5em;
 }
 
 #section2Center {
@@ -244,53 +244,53 @@ li:nth-child(3) {
 }
 
 #iconoApi {
-    margin-left: 440px;
+    margin-left: 27.500em;
 
 }
 
 #iconoWeb {
-    margin-left: 720px;
+    margin-left: 45.000em;
 }
 
 #iconoBBDD {
-    margin-left: 540px;
+    margin-left: 33.750em;
 }
 
 #section2RightSide {
-    width: 540px;
+    width: 33.750em;
 }
 
 
 /* SECTION 'Contacto' */
 #section3LeftSide {
-    width: 540px;
+    width: 33.750em;
 }
 
 #section3Center {
-    width: 540px;
+    width: 33.750em;
 }
 
 
 #section3RightSide {
     display: flex;
     flex-direction: column;
-    width: 830px;
+    width: 51.875em;
 }
 
 #barSeparation2 {
     background-color: #77cace;
-    height: 4px;
-    width: 580px;
-    margin-top: 32px;
-    margin-left: 120px;
+    height: 0.250em;
+    width: 36.250em;
+    margin-top: 2em;
+    margin-left: 7.50em;
 }
 
 #contactTittle {
     font-family: 'Grandstander', cursive;
     font-size: xx-large;
     text-align: center;
-    height: 40px;
-    margin-top: 64px;
+    height: 1.5em;
+    margin-top: 1em;
 }
   
 #contactText {
@@ -299,7 +299,7 @@ li:nth-child(3) {
     font-weight: 200;
     font-size: x-large;
     text-align: center;
-    padding-right: 36px;
+    padding-right: 1.5em;
 }
 
 #contactButton {
@@ -308,16 +308,16 @@ li:nth-child(3) {
         color: white;
         font-size: large;
         text-align: center;
-        width: 120px;
-        padding: 26px 32px;
-        margin-top: 24px;
-        margin-left: 320px;
-        border-radius: 12px;
+        width: 7.5em;
+        padding: 1.625em 2em;
+        margin-top: 1.5em;
+        margin-left: 17.2em;
+        border-radius: 0.750em;
         transition-duration: 1s;
 }
 
 #contactButton:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 0.750em 1em 0 rgba(0,0,0,0.24), 0 1.063em 3.125em 0 rgba(0,0,0,0.19);
     transition-duration: 2s;
 }
 
@@ -333,12 +333,12 @@ li:nth-child(3) {
     position: absolute;
     opacity: 0;
     top: 0;
-    right: -20px;
+    right: -1.250em;
     transition: 0.5s;
 }
   
 .button:hover span {
-    padding-right: 25px;
+    padding-right: 1.563em;
 }
   
 .button:hover span:after {
@@ -350,26 +350,26 @@ li:nth-child(3) {
 #socialLinks{
     display: flex;
     flex-direction: row;
-    height: 70px;
-    margin-top: 120px;
+    height: 4.375em;
+    margin-top: 7.50em;
 }
 
 #leftFooter {
-    width: 860px;
+    width: 53.750em;
 }
 
 #centerFooter {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 200px;
+    width: 12.50em;
 }
 
 #rightFooter {
-    width: 860px;
+    width: 53.750em;
 }
 
 #footerBar{
     background-color: #77cace;
-    height: 10px;
+    height: 0.625em;
 }
