@@ -3,6 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Grandstander:ital,wght@1,300&display=swap');
 
+/* EFFECTS */
 @keyframes fadeIn {
     0% {
     opacity:1;
@@ -20,6 +21,7 @@
 
 /* ETIQUETAS */
 body {
+    height: 122.188em;
     margin: 0;
 }
 
@@ -36,7 +38,7 @@ header.contactHeader {
 }
 
 #mainHeader {
-    height: 20%;
+    height: 10%;
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
   }
   
@@ -48,64 +50,67 @@ footer {
 
 
 /* DIV Contenedor */
-#bodyContainer { 
+#bodyContainer {
+    height: 100%;
     width: 100%;
 }
 
-/* DIV Container*/
-#headerDIV {
+/* DIV dentro de <Header> */
+#headerDiv {
     display: flex;
     flex-direction: row;
     height: 100%;
 }
 
 .null {
-    width: 8%;
+    width: 5%;
 }
 
-#marcaPersonal {
+#personalBrand {
     display: flex;
     flex-direction: column;
-    width: 12%;
+    width: 15%;
 }
 
 .null2 {
-    height: 25%;
+    height: 45%;
 }
 
-#textoMarca {
+#personal-logo {
+    text-align: center;
+    height: 35%;
+}
+
+#brandText {
     font-family: 'Grandstander', cursive;
     text-align: center;
     font-size: x-large;
+    height: 25%;
 }
 
 .null3 {
-    width: 16%;
+    width: 14%;
 }
 
-#menuContainer {
+#headerMidBox {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 30%;
 }   
 
-#navMenu {
-    height: 100%;
-    width: 100%;
-}
-
 .null4 {
-    height: 80%;
+    height: 65%;
 }
 
+#listDiv {
+    height: 35%;
+}
+
+/* Estilos de la lista */
 .list {
-    margin: 0;
-    list-style-type: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 20%;
-    width: 100%;
+    list-style-type: none;
+    height: 100%;
 }
 
 a {
@@ -121,69 +126,65 @@ a:hover {
 li:nth-child(1) {
     font-family: 'Grandstander', cursive;
     text-align: center;
-    height: 20%;
+    height: 100%;
     width: 33.3%;
-    
-    
 }
 
 li:nth-child(2) {
     font-family: 'Grandstander', cursive;
     text-align: center;
-    height: 20%;
-    width: 33.3%;
-    
+    height: 100%;
+    width: 33.3%;   
 }
 
 li:nth-child(3) {
     font-family: 'Grandstander', cursive;
     text-align: center;
-    height: 20%;
+    height: 100%;
     width: 33.3%;
 }
 
-/* DIV con Imagen */
-#mainDIV {
-    height: 61.125em;
-    width: auto;
-    background-image: url(../img/main.jpg);
-    background-size: cover;
+.null5 {
+    width: 36%;
 }
 
-#mainText {
-    font-family: 'Grandstander', cursive;
-    font-size: 400%;
-    color: white;
-    text-align: center;
-    height: 12.500em;
-    width: 77.500em;
+/* DIV con Imagen */
+#imageDiv {
+    height: 50%;
+    width: 100%;
+    background-image: url(../img/main.jpg);
+    background-size: cover;
 }
 
 /* SECTION 'Sobre mi' */
 .section {
     display: flex;
     flex-direction: row;
-    height: 22.500em;
+    height: 20%;
 }
 
 #section1LeftSide {
-    width: 28.750em;
+    width: 20%;
 }
 
 #section1Center {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 60%;
 }
 
-#centerTop{
+.null6 {
+    height: 5%;
+}
+
+#centerTop1{
     position: relative;
     height: 5em;
     width: 5em;
     margin: auto;
 }
 
-#centerTop img.top {
+#centerTop1 img.top {
     position: relative;
     bottom: 5.250em;
     animation-name: fadeIn;
@@ -193,80 +194,84 @@ li:nth-child(3) {
     animation-direction: alternate;
 }
 
-#centerMid {
+.null7 {
+    height: 5%;
+}
+
+#centerMid1 {
     font-family: 'Grandstander', cursive;
     font-size: xx-large;
     text-align: center;
-    height: 2.500em;
-    margin-top: 0.875em;
+    height: 10%;
 }
 
-#centerBottom{
+#centerBottom1{
     font-family: 'Dosis', sans-serif;
     color: #222831;
     font-weight: 200;
     font-size: x-large;
     text-align: center;
-    height: 13.125em;    
+    height: 50%;    
 }
 
 #section1RightSide {
-    width: 28.750em;
+    width: 20%;
 }
 
-/* SECTION 'Portfolio' */
-#section2LeftSide{
-    width: 51.875em;
-}
-
-#barSeparation {
-    background-color: #77cace;
-    height: 0.250em;
-    width: 36.250em;
-    margin-top: 3.000em;
-    margin-left: 3em;
-}
-
-#leftMid2 {
-    font-family: 'Grandstander', cursive;
-    font-size: xx-large;
-    text-align: center;
-    height: 1.5em;
-    margin-top: 1em;
-}
-
-#leftBottom2 {
-    font-family: 'Dosis', sans-serif;
-    color: #222831;
-    font-weight: 200;
-    font-size: x-large;
-    text-align: center;
-    padding-left: 1.5em;
+/* SECTION 'Tecnologias' */
+#section2LeftSide {
+    width: 5%;
 }
 
 #section2Center {
-    display: flex;
-    flex-direction: column;
+    width: 40%;
+}
+
+#centerTop2 {
+    background-color: #77cace;
+    height: 1.25%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#centerMid2 {
+    font-family: 'Grandstander', cursive;
+    font-size: xx-large;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+    margin-top: 2.5%;
+}
+
+#centerBottom2 {
+    font-family: 'Dosis', sans-serif;
+    color: #222831;
+    font-size: x-large;
+    text-align: center;
+    height: 70%;
     width: 100%;
 }
 
-#iconoApi {
-    margin-left: 27.500em;
+#section2RightSide {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
 
+#iconoApi {
+    width: 80%;
+    margin-left: ;
 }
 
 #iconoWeb {
-    margin-left: 45.000em;
+    width: 80%
+    margin-left: ;
 }
 
 #iconoBBDD {
-    margin-left: 33.750em;
+    width: 80%;
+    margin-left: ;
 }
-
-#section2RightSide {
-    width: 33.750em;
-}
-
 
 /* SECTION 'Contacto' */
 #section3LeftSide {
