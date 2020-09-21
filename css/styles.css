@@ -45,7 +45,7 @@ header.contactHeader {
 footer {
     display: flex;
     flex-direction: column;
-    height: 12.500em;
+    height: 10%;
 }
 
 
@@ -154,6 +154,7 @@ li:nth-child(3) {
     width: 100%;
     background-image: url(../img/main.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* SECTION 'Sobre mi' */
@@ -192,10 +193,6 @@ li:nth-child(3) {
     animation-iteration-count: infinite;
     animation-duration: 3s;
     animation-direction: alternate;
-}
-
-.null7 {
-    height: 5%;
 }
 
 #centerMid1 {
@@ -258,74 +255,92 @@ li:nth-child(3) {
     width: 55%;
 }
 
-#iconoApi {
+#iconoApiDiv {
     width: 80%;
-    margin-left: ;
+    margin: auto;
 }
 
-#iconoWeb {
-    width: 80%
-    margin-left: ;
+/* Icono dentro del DIV 'iconoApi' */
+
+#ico-Api {
+    position: relative;
+    left: 15%;
+    bottom: 30%;
 }
 
-#iconoBBDD {
-    width: 80%;
-    margin-left: ;
+#iconoWebDiv {
+    width: 80%;   
+}
+
+/* Iconos dentro del DIV 'iconoWeb' */
+#ico-Web {
+    position: relative;
+    left: 50%;
+    bottom: 25%;
+}
+
+#ico-BBDD {
+    position: relative;
+    left: 15%;
 }
 
 /* SECTION 'Contacto' */
 #section3LeftSide {
-    width: 33.750em;
+    width: 50%;
 }
 
 #section3Center {
-    width: 33.750em;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
 }
 
 
 #section3RightSide {
-    display: flex;
-    flex-direction: column;
-    width: 51.875em;
+    width: 5%;
 }
 
 #barSeparation2 {
     background-color: #77cace;
-    height: 0.250em;
-    width: 36.250em;
-    margin-top: 2em;
-    margin-left: 7.50em;
+    height: 1.25%;
+    width: 100%;
+    margin-top: 5%;
 }
 
 #contactTittle {
     font-family: 'Grandstander', cursive;
     font-size: xx-large;
     text-align: center;
-    height: 1.5em;
-    margin-top: 1em;
+    height: 10%;
+    width: 100%;
+    margin-top: 2.5%;
 }
   
 #contactText {
     font-family: 'Dosis', sans-serif;
     color: #222831;
-    font-weight: 200;
     font-size: x-large;
     text-align: center;
-    padding-right: 1.5em;
+    height: 25%;
+    width: 100%;
 }
 
+/* Boton de contacto */
 #contactButton {
-        font-family: 'Grandstander', cursive;
-        background-color: #00adb5;
-        color: white;
-        font-size: large;
-        text-align: center;
-        width: 7.5em;
-        padding: 1.625em 2em;
-        margin-top: 1.5em;
-        margin-left: 17.2em;
-        border-radius: 0.750em;
-        transition-duration: 1s;
+    font-family: 'Grandstander', cursive;
+    background-color: #00adb5;
+    color: white;
+    font-size: large;
+    text-align: center;
+    height: 20%;
+    width: 25%;
+    margin: auto;
+    border-radius: 0.750em;
+    transition-duration: 1s;
+}
+
+#spanText {
+    margin-top: 14.5%;
 }
 
 #contactButton:hover {
@@ -359,11 +374,14 @@ li:nth-child(3) {
 }
 
 /* FOOTER DIVS */
+.null7 {
+    height: 65%;
+}
+
 #socialLinks{
     display: flex;
     flex-direction: row;
-    height: 90%;
-    margin-top: 7.50em;
+    height: 30%;
 }
 
 #leftFooter {
@@ -383,9 +401,9 @@ li:nth-child(3) {
 
 #footerBar{
     background-color: #77cace;
-    height: 10%;
+    height: 5%;
+    width: 100%;
 }
-
 
 /* CONTACT.html */
 #contactDIV {
