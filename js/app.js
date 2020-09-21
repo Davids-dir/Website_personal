@@ -7,4 +7,4 @@ function scrollFunction() {
   } else {
     document.getElementById("mainHeader").style.top = "0";
   }
-} 
+}

@@ -31,12 +31,6 @@ header {
     width: 100%;
 }
 
-header.contactHeader {
-    background-color: #77cace;
-    position: fixed;
-    width: 100%;
-}
-
 #mainHeader {
     height: 10%;
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
@@ -373,7 +367,7 @@ li:nth-child(3) {
     right: 0;
 }
 
-/* FOOTER DIVS */
+/* FOOTER */
 .null7 {
     height: 65%;
 }
@@ -406,39 +400,86 @@ li:nth-child(3) {
 }
 
 /* CONTACT.html */
-#contactDIV {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    bottom: 18.750em;
-    height: 55.000em;
-    
+body.contactBody {
+    height: 100%;
+}
+
+header.contactHeader {
+    background-color: #77cace;
+    height: 10%;
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
 #headerContactDIV {
     display: flex;
     flex-direction: row;
-    height: 5.5em;
+    height: 100%;
+}
+
+.null2contact {
+    height: 40%;
+}
+
+#personal-logoContact {
+    text-align: center;
+    height: 30%;
+}
+
+.null3Contact {
+    width: 60%;
+}
+
+#listDivContact {
+    height: 100%;
+    width: 10%;
+}
+
+.null4Contact {
+    height: 80%;
+}
+
+.listContact {
+    height: 20%;
+    width: 100%;
+    list-style-type: none;
 }
 
 #linkIndex {
-    margin-left: 50.000em;
+    width: 100%;
 }
 
-.column {
-    margin-top: 12.500em;
+/* Div con el Formulario de contacto */
+#contactDIV {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 5em;
+    height: 55.000em;
+}
+
+#contactChildDiv {
+    height: 100%;
+}
+
+#ico-idea {
+    position: relative;
+    top: 10.625em;
+    left: 11.250em;
+    z-index: 0;
+}
+
+#ico-deal {
+    position: relative;
+    top: 38.750em;
+    left: 45.000em;
+    z-index: 0;
 }
 
 #dudaDiv {
     font-family: 'Grandstander', cursive;
     font-size: x-large;
-    width: 45.000em;
+    width: 100%;
     text-align: center;
-    margin-left: 12.500em;
-}
-
-#contactChildDiv {
-    height: 55.625em;
 }
 
 .form-control {
@@ -466,20 +507,6 @@ li:nth-child(3) {
     font-size: large;
 }
 
-#idea {
-    position: relative;
-    top: 10.625em;
-    left: 11.250em;
-    z-index: 0;
-}
-
-#deal {
-    position: relative;
-    top: 38.750em;
-    left: 45.000em;
-    z-index: 0;
-}
-
 #form-set {
     position: relative;
     z-index: 1;
@@ -487,6 +514,13 @@ li:nth-child(3) {
 
 #backImage {
     height: 43.750em;
+}
+
+#socialLinksContact {
+        display: flex;
+        flex-direction: row;
+        height: 30%;
+        margin-top: 1.5%;
 }
 
 #centerFooterContact {
